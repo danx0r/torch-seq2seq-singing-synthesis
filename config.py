@@ -9,8 +9,9 @@ f0_bin = 256
 f0_max = 1100.0
 f0_min = 125.0
 
-
-ROOT_PATH = 'E:\dataset\dataset_use\opencpop'
+HOME = os.environ['HOME']
+ROOT_PATH = f"{HOME}/opencpop"
+print (ROOT_PATH)
 
 
 # ------------path config------------------
