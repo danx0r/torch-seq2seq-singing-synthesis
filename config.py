@@ -9,13 +9,13 @@ f0_bin = 256
 f0_max = 1100.0
 f0_min = 125.0
 
-HOME = os.environ['HOME']
+HOME = os.getcwd()
 ROOT_PATH = f"{HOME}/opencpop"
 print (ROOT_PATH)
 
 
 # ------------path config------------------
-RAW_DATA_PATH = os.path.join(ROOT_PATH, 'raw_piece')
+RAW_DATA_PATH = os.path.join(ROOT_PATH, 'raw')
 DATA_ROOT_PATH = os.path.join(ROOT_PATH, 'dataset')
 GEN_PATH = os.path.join(ROOT_PATH, 'gen')
 
